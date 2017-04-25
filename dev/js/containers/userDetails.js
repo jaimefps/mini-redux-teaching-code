@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 class UserDetails extends Component {
 
   render() {
     if (this.props.user === null) {
-      return (<h2>Select a user...</h2>); 
+      return (<h2>Select a user...</h2>);
     }
     return (
       <div>
@@ -21,7 +20,7 @@ class UserDetails extends Component {
 
 function mapStateToProps(state) {
   return {
-    user: state.activeUser
+    user: state.activeUser,
   };
 }
 

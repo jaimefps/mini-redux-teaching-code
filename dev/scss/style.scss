@@ -3,3 +3,14 @@ $primary: #006699;
 h2 {
 	color: $primary;
 }
+.names {
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  width: 100px;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: grey;
+  color: white
+}
